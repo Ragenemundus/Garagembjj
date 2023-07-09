@@ -1,0 +1,141 @@
+.efeito_btn{
+    animation-name: slider_btn;
+    animation-duration: 2.5s;
+}
+.efeito_img{
+    animation-name: slider_img;
+    animation-duration: 2.5s;
+    
+}
+.efeito_img_revs{
+    animation-name: slider_img_revs;
+    animation-duration: 2.5s;
+    
+}
+.efeito {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    animation-name: slider;
+    animation-duration: 1.5s;
+   
+    padding:0;
+
+}
+
+.efeito2 {
+
+    animation-name: slider2;
+    animation-duration: 3s;
+
+}
+
+@keyframes slider {
+    from {
+         opacity: 0;
+         transform: translateY(-20px);
+    }
+
+    to {
+         transform: translateY(0);
+         opacity: 1;
+    }
+
+}
+@keyframes slider2 {
+    from {
+         opacity: 0;
+        
+    }
+
+    to {
+         
+         opacity: 1;
+    }
+
+}
+@keyframes slider_img {
+    from {
+         opacity: 0;
+         transform:translateX(20px)
+        
+    }
+
+    to {
+         
+         opacity: 1;
+         transform:translateX(0)
+    }
+
+}
+@keyframes slider_img_revs {
+    from {
+         opacity: 0;
+         transform:translateX(-20px)
+        
+    }
+
+    to {
+         
+         opacity: 1;
+         transform:translateX(0)
+    }
+
+}
+@keyframes slider_btn{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/***----------------PAG HORÁRIO----------------------*****/
+.anima_txt1{
+    animation-name: slider3;
+    animation-duration: 1.5s;
+    
+}
+@keyframes slider3 {
+
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        transform: translateY(0);
+        opacity:1;
+    }
+}
+
+.anima_txt2{
+    animation-name: slider4;
+    animation-duration: 1.5s;
+    
+}
+@keyframes slider4 {
+
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        transform: translateY(0);
+        opacity:1;
+    }
+}
+.anima_table{
+    animation-name: slider5;
+    animation-duration: 3s;
+}
+@keyframes slider5 {
+
+    from{
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        transform: translateX(0);
+        opacity:1;
+    }
+}

@@ -1,0 +1,55 @@
+
+{% extends 'base.html'%}
+{%block conteudo%}
+{% load static %}
+{% load crispy_forms_tags %}
+
+<section style="margin-top:100px;margin-bottom:50px;">
+    <div class="container">
+      <div class = "row">
+        <div class = "col-lg-6  col-md-6 col-sm-6" >
+          <p class="display-4 efeito" style="color:black;font-weight: bold;margin-top:5px;margin-bottom:50px">Academia</p>
+
+          <img class="img-fluid mb-4 mb-lg-0 efeito_img_revs" src={% static "img/carro4.jpeg" %} alt="Image">
+
+
+
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <p class="display-4 efeito" style="color:black;font-weight: bold;margin-top:5px;margin-bottom:50px">Nossa Historia</p>
+          <p style="text-align: justify;" class="efeito_img">
+            It is a long established fact that a reader will be distracted by the readable content of a page
+            when looking at its layout.
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+            as opposed to using 'Content here, content here', making it look like readable English.
+          </p>
+          <div class="row efeito_img">
+            <div class="col-lg-6 col-md-6 col-sm-6 ">
+              <h2  style="color:black;font-weight: bold;margin-top:5px;margin-bottom:10px">Visão</h2>
+              <p style="text-align: justify;">
+                It is a long established fact that a reader will be distracted by the readable content of a page
+                when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                as opposed to using 'Content here, content here', making it look like readable English.
+              </p>
+
+             </div>
+             <div class="col-lg-6 col-md-6 col-sm-6">
+              <h2  style="color:black;font-weight: bold;margin-top:5px;margin-bottom:10px">Missão</h2>
+              <p style="text-align: justify;">
+                It is a long established fact that a reader will be distracted by the readable content of a page
+                when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                as opposed to using 'Content here, content here', making it look like readable English.
+              </p>
+
+             </div>
+
+          </div>
+         </div>
+
+      </div>
+
+    </div>
+  </section>
+{%endblock%}

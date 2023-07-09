@@ -1,0 +1,101 @@
+{% extends 'base.html'%}
+{%block conteudo%}
+{% load static %}
+
+ <!-- Painel -->
+  <section style="color:white ; background:black">
+    <div class="container">
+
+
+      <div class="row ">
+        <div class="col-lg-6 col-sm-auto  caixa">
+          <span class="h1 texto_topo ">Garagem Academia de Jiu-Jitsu</span>
+
+        </div>
+        <div class="col-lg-6 col-sm-auto ">
+
+          <img src={% static "img/queda.png" %} class="img-fluid" alt="Imagem responsiva" style="margin: -10%">
+
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!-- Academia -->
+  <section >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 cal-md-12 caixa_texto">
+          <p class="display-4 efeito" style="color:black;font-weight: bold;margin-top:5px;margin-bottom:50px">Academia</p>
+          <p style="text-align: justify;">
+            It is a long established fact that a reader will be distracted by the readable content of a page
+            when looking at its layout.
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+            as opposed to using 'Content here, content here', making it look like readable English.
+          </p>
+          <a class="btn my_btn" href="#" role="button" style="margin-top:20px">Saiba Mais</a>
+        </div>
+        <div class=" col-lg-4 col-md-12 caixa_texto">
+
+          <div class="card" style="width: 20rem">
+            <img class="card-img-top" src={% static "img/1.png" %}>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+ <!-- Horario e Campeonatos-->
+ <section >
+  <div class="container">
+    <div class="row" style="padding-bottom:40px">
+      <div class="col-lg-6 cal-md-12 cx-vermelha">
+        <p class="h1" style="text-align: left;font-size:38px;">Horários</p>
+
+
+
+        <button type="button" class="btn btn-outline-light" style="padding:8px 24px; margin-top:30px">Saiba Mais</button>
+      </div>
+      <div class=" col-lg-6 col-md-12 cx-preta">
+
+        <p class="h1" style="text-align: left;font-size:38px;">Galeria </p>
+        <button type="button" class="btn btn-outline-light" style="padding:8px 24px; margin-top:30px">Saiba Mais</button>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+
+ <!--Projeto Social-->
+  <section>
+    <div class="container">
+      <div class="row" style="padding-bottom:40px">
+         <div class="col-lg-6">
+
+            <img  src={% static "img/Projeto-GPS.png" height="350px" %} width="350px"  >
+
+
+
+         </div>
+         <div class="col-lg-6">
+          <h1 style="padding-bottom:20px;"> Projeto-GPS </h1>
+          <p style="text-align: justify;">
+            It is a long established fact that a reader will be distracted by the readable content of a page
+            when looking at its layout.
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+            as opposed to using 'Content here, content here', making it look like readable English.
+          </p>
+          <a class="btn my_btn" href="#" role="button" style="margin-top:20px">Saiba Mais</a>
+         </div>
+      </div>
+    </div>
+  </section>
+<!--Teste!-->
+
+
+
+{%endblock%}

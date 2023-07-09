@@ -1,0 +1,96 @@
+{% extends 'base.html'%}
+{%block conteudo%}
+{% load static %}
+{% load crispy_forms_tags %}
+
+ <section style="margin-top:100px;margin-bottom:50px;">
+    <div class="container">
+      <div class = "row">
+        <div class = "col-lg-12 " >
+            <p class="h3 anima_txt1" style="text-align: center;color:red;margin-top:10px;margin-bottom:5px">Horários</p>
+                <p class="display-3 anima_txt2" style="text-align: center;color:black;font-weight: bold;margin-top:5px;margin-bottom:50px">Nossas Aulas</p>
+          <div class="table-responsive">
+
+            <table class="table table-bordered" style="color:black">
+              <thead>
+
+                <tr class="anima_table">
+                  <th scope="col"  style="background:black;color:white">Horários</th>
+                  <th scope="col"  style="background:black;color:white">Segunda</th>
+                  <th scope="col"  style="background:black;color:white">Terça</th>
+                  <th scope="col"  style="background:black;color:white">Quarta</th>
+                  <th scope="col"  style="background:black;color:white">Quinta</th>
+                  <th scope="col"  style="background:black;color:white">Sexta</th>
+                  <th scope="col"  style="background:black;color:white">Sábado</th>
+
+
+                </tr>
+              </thead>
+              <tbody class="anima_table">
+                 <tr>
+
+                  <th scope="row" style="background:black;color:white">05:30</th>
+                  <td style="background:#e31c25;color:white">Jiu-Jitsu (Lucio)</td>
+                  <td></td>
+                  <td style="background:#e31c25;color:white">Jiu-Jitsu(Lucio)</td>
+                  <td></td>
+                  <td style="background:#e31c25;color:white">Jiu-Jitsu(Lucio)</td>
+                  <td></td>
+
+                </tr>
+                <tr>
+
+                  <th scope="row" style="background:black;color:white">11:00</th>
+                  <td style="background:#e31c25;color:white">Jiu-Jitsu (Cleber)</td>
+                  <td></td>
+                  <td style="background:#e31c25;color:white">Jiu-Jitsu(Cleber)</td>
+                  <td></td>
+                  <td style="background:#e31c25;color:white">Jiu-Jitsu(Cleber)</td>
+                  <td></td>
+
+                </tr>
+                <tr>
+                  <th scope="row"  style="background:black;color:white">16:00</th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td style="background:#e31c25;color:white">Jiu-Jitsu (Leo/Gabriel )</td>
+
+                </tr>
+                <tr>
+                  <th scope="row"  style="background:black;color:white">18:00</th>
+                  <td></td>
+                  <td style="background:#e31c25;color:white">Funcional(Welson)</td>
+                  <td></td>
+                  <td style="background:#e31c25;color:white">Funcional(Welson)</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th scope="row"  style="background:black;color:white">19:00</th>
+                  <td style="background:#e31c25;color:white">Jiu-Jitsu (Hiago/Januario)</td>
+                  <td style="background:#e31c25;color:white">GPS(Januario)</td>
+                  <td style="background:#e31c25;color:white">Jiu-Jitsu (Hiago/Januario)</td>
+                  <td style="background:#e31c25;color:white">GPS(Januario)</td>
+                  <td style="background:#e31c25;color:white">Jiu-Jitsu (Hiago/Januario)</td>
+                  <td></td>
+                </tr>
+
+              </tbody>
+            </table>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+{%endblock%}

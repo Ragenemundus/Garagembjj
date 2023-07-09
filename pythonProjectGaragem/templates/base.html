@@ -1,0 +1,145 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <link rel="stylesheet" href={% static "stilo.css" %}>
+  <link rel="stylesheet" href={% static "css/styleGal.css" %}>
+  <link rel="stylesheet" href={% static "css/bootstrap.min.css" %}>
+  <!-- style css -->
+  <link rel="stylesheet" href={% static "css/style.css" %}>
+  <link rel="stylesheet" href={% static "css/style_anima.css"%}>
+  <!-- Responsive-->
+  <link rel="stylesheet" href={% static "css/responsive.css"%}>
+  <!-- fevicon -->
+ <!-- <link rel="icon" href={% static "images/fevicon.png" %} type="image/gif" /> -->
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href={% static "css/jquery.mCustomScrollbar.min.css" %}>
+  <!-- Tweaks for older IEs-->
+
+  <title>Garagem</title>
+ <style>
+  a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+ </style>
+</head>
+
+<body>
+
+  <head>
+    <!-- mennu -->
+    <nav class="navbar navbar-expand-sm navbar-light  " style=" background:black; color:#fff ">
+      <a>contato@.com</a>
+      <div class="ml-auto">
+        <ul class="social_icon">
+
+
+          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+
+    </nav>
+    <nav class="navbar navbar-expand-sm   ">
+      <div class="container">
+        <a class="navbar-brand" href="http://127.0.0.1:8000/"> <img src={% static "img/logo.png" %} width="100"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu"
+          aria-expanded="false" aria-label="Toggle navigation" style="color:red">
+          <span class="navbar-toggler-icon"></span>
+          <img src={% static "img/chevrons-down.svg"%} >
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link menu_fonts" href="http://127.0.0.1:8000/" style="padding-left: 8px"> Home </a> </li>
+            <li class="nav-item"><a class="nav-link menu_fonts" href="http://127.0.0.1:8000/academia/" style="padding-left: 8px"> Academia </a> </li>
+            <li class="nav-item"><a class="nav-link menu_fonts " href="http://127.0.0.1:8000/horario/" style="padding-left: 8px"> Horários</a>
+            </li>
+            <li class="nav-item"><a class="nav-link menu_fonts" href="http://127.0.0.1:8000/gps/" style="padding-left: 8px"> Projeto Social </a>
+            </li>
+
+
+            <li class="nav-item"><a class="nav-link menu_fonts" href="http://127.0.0.1:8000/galeria/" style="padding-left: 8px"> Galeria </a> </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </head>
+
+  <!-- Painel -->
+  <section style="color:white ; background:black;padding: 30px;">
+
+
+  </section>
+
+
+ <!-- Conteudo -->
+
+
+{%block conteudo%}{%endblock%}
+
+
+
+  <!-- Rodapé -->
+  <footer >
+    <div class="footer" style="padding-bottom:20px">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-9 col-sm-6 ">
+            <p class="h2" style="text-align: left;color:#fff">Nosso Endereço </p>
+            <p style="text-align: left;color:#fff">Rua Jequié, Centro, nº 55,</p>
+            <p style="text-align: left;color:#fff">Ipiaú-Ba</p>
+
+            <p style="text-align: left;color:#fff">© 2022 Direitos resevado a Garagem </p>
+          </div>
+          <div class="col6 col-md-3 col-sm-6">
+
+            <ul class="social_icon">
+              <p style="padding-bottom:15px">Encontre-nos nas redes </p>
+
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+
+    </div>
+  </footer>
+
+
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
